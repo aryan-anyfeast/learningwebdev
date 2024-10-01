@@ -11,11 +11,16 @@ import ShopScreens from './ShopScreens';
 import OfferCarousel from './OfferCarousel';
 import ConfirmRefundPopup from './ConfirmRefund';
 import ResponsiveRefund from './ResponsiveRefund';
+import Referral from './ReferralScreen';
+import Referral2 from './ReferralScreen2';
+
 
 createRoot(document.getElementById('root') as HTMLElement).render(
   <StrictMode>
     {/* <ShopScreens/> //shop page */}
     {/* confirmrefund */}
-    <ResponsiveRefund/>
+    {/* <ResponsiveRefund/> */}
+    {/* <Referral/> */}
+    <Referral2/>
   </StrictMode>,
 );
