@@ -10,10 +10,12 @@ import ProductItems from './ProductItems';
 import ShopScreens from './ShopScreens';
 import OfferCarousel from './OfferCarousel';
 import ConfirmRefundPopup from './ConfirmRefund';
+import ResponsiveRefund from './ResponsiveRefund';
 
 createRoot(document.getElementById('root') as HTMLElement).render(
   <StrictMode>
     {/* <ShopScreens/> //shop page */}
     {/* confirmrefund */}
+    <ResponsiveRefund/>
   </StrictMode>,
 );
