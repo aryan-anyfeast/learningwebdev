@@ -17,7 +17,7 @@ import ExoticVegetable4 from './assets/images/ExoticVegetable4.png';
 import ExoticVegetable5 from './assets/images/ExoticVegetable5.png';
 import CaretCircleRight from './assets/images/CaretCircleRight.png';
 import ArrowDown2 from './assets/images/Arrow - Down 2.png';
-import ProductItem from './ProductItem';
+//import ProductItem from './ProductItem';
 import ProductItems from './ProductItems';
 import FruitTrial from './FruitsTrial';
 import SnackTrial from './SnacksTrial';

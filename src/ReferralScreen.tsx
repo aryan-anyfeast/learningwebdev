@@ -5,7 +5,7 @@ import referralasset1 from './assets/images/ref1.png'; // Replace this path with
 import referralasset2 from './assets/images/ref2.png'; // Adjust this path
 import referralasset3 from './assets/images/ref3.png'; // Adjust this path
 
-const Referral = () => {
+const ReferralScreen1 = () => {
   return (
     <div className="min-h-screen flex flex-col items-center bg-gray-50 py-2 px-4" style={{ fontFamily: 'Inter, sans-serif' }}>
       {/* Sample Navbar */}
@@ -71,4 +71,4 @@ const Referral = () => {
   );
 };
 
-export default Referral;
+export default ReferralScreen1;

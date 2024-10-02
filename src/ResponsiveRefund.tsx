@@ -55,7 +55,7 @@ const ResponsiveRefund: React.FC = () => {
       <div className="h-5"></div>
 
       {/* Order Details */}
-      <div className="mt-2 ml-4 space-y-2">
+      <div className="mt-2 ml-2 space-y-2">
         <p className="text-[14px] text-black font-semibold">Arriving By Today</p>
         <p className="text-[14px] text-[#313131]">Order Number: #00007023</p>
         <p className="text-[14px] text-[#313131] font-semibold">Total ₹800</p>
@@ -85,8 +85,8 @@ const ResponsiveRefund: React.FC = () => {
         <hr className="border-gray-300 my-4" />
 
         {/* Select Reason */}
-        <p className="font-semibold text-sm mb-2">Select Reason</p>
-        <div className="space-y-2">
+        <p className="font-semibold text-sm mb-2 py-2">Select Reason</p>
+        <div className="space-y-5">
           <label className="flex items-center">
             <input
               type="radio"
