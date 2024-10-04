@@ -1,3 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    /* Custom radio button style */
+    .myradio {
+    accent-color: #313131; /* This changes the fill color of the radio button when selected */
+    }

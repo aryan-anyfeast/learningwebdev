@@ -10,12 +10,14 @@ import ResponsiveRefund from './ResponsiveRefund';
 import ReferralScreen2 from './ReferralScreen2';
 import ReferralScreen1 from './ReferralScreen';
 import ResponsiveShop from './ReponsiveShop';
+import ProductItem from './relatedproducts';
+import ProductPage from './productpage';
 
 
 createRoot(document.getElementById('root') as HTMLElement).render(
   <StrictMode>
     {/* <ShopScreens/> */}
-    {/* <ResponsiveRefund/>*/}
+    {/* <ResponsiveRefund/> */}
     {/* <ReferralScreen1/> */}
     {/* <ReferralScreen2/> */}
     <ResponsiveShop/> 

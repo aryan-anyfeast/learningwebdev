@@ -12,6 +12,9 @@ import Vegetables from './assets/images/Vegetables.png';
 import Fruits from './assets/images/Fruits.png';
 import Meat from './assets/images/Meat.png';
 import Dairy from './assets/images/Dairy.png';
+import ProductItem from "./relatedproducts";
+import FruitTrial from "./FruitsTrial";
+import DelightReceipe from "./Delight";
 
 
 
@@ -85,7 +88,7 @@ const ResponsiveShop: React.FC = () => {
       <h2 className="px-5 mt-14 mb-3 text-lg font-semibold">
   Shop Unique Ingredients by Cuisine
 </h2>
-<div className="flex px-5 justify-between items-center mb-4">
+<div className="flex px-5 justify-between items-center mb-7">
   <span className="text-black text-[18px] md:text-[24px] font-medium">
     Categories
   </span>
@@ -125,7 +128,7 @@ const ResponsiveShop: React.FC = () => {
 </div>
 
 
-<div className="flex px-5 justify-between items-center mb-4">
+<div className="flex px-5 mt-16 justify-between items-center mb-4">
   <span className="text-black text-[18px] md:text-[24px] font-bold">
     Mega Sale Upto 50%
   </span>
@@ -144,7 +147,9 @@ const ResponsiveShop: React.FC = () => {
   </a>
 </div>
 
-<div className="flex px-5 justify-between items-center mb-4">
+<ProductItem/>
+
+<div className="flex px-5 justify-between items-center mt-12 mb-4">
   <span className="text-black text-[18px] md:text-[24px] font-medium">
     Exotic Vegetables
   </span>
@@ -163,7 +168,9 @@ const ResponsiveShop: React.FC = () => {
   </a>
 </div>
 
-<div className="flex px-5 justify-between items-center mb-4">
+<ProductItem/>
+
+<div className="flex px-5 justify-between items-center mt-12 mb-4">
   <span className="text-black text-[18px] md:text-[24px] font-medium">
     Fruits
   </span>
@@ -182,7 +189,13 @@ const ResponsiveShop: React.FC = () => {
   </a>
 </div>
 
-<div className="flex px-5 justify-between items-center mb-4">
+<ProductItem/>
+
+<div className="h-7"></div>
+
+<DelightReceipe/>
+
+<div className="flex px-5 justify-between items-center mt-12 mb-4">
   <span className="text-black text-[18px] md:text-[24px] font-medium">
     Snacks
   </span>
@@ -201,7 +214,7 @@ const ResponsiveShop: React.FC = () => {
   </a>
 </div>
 
-
+<ProductItem/>
 
 
     </div>

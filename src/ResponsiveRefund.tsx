@@ -8,6 +8,8 @@ import five from './assets/images/five.png';
 import six from './assets/images/six.png';
 import anyFeastIcon from './assets/images/AnyFeast.png';
 import arrowIcon from './assets/images/ArrowIcon.png';
+import './app.css'; // Ensure this is correctly imported
+
 
 const ResponsiveRefund: React.FC = () => {
   const [selectedReason, setSelectedReason] = useState("");
@@ -87,61 +89,56 @@ const ResponsiveRefund: React.FC = () => {
         {/* Select Reason */}
         <p className="font-semibold text-sm mb-2 py-2">Select Reason</p>
         <div className="space-y-5">
-          <label className="flex items-center">
-            <input
-              type="radio"
-              name="reason"
-              value="Incorrect Product"
-              checked={selectedReason === "Incorrect Product"}
-              onChange={handleReasonChange}
-              className="form-radio text-red-500 h-4 w-4"
-            />
-            <span className="ml-2 text-sm">Incorrect Product</span>
-          </label>
-          <label className="flex items-center">
-            <input
-              type="radio"
-              name="reason"
-              value="Ordered by mistake"
-              checked={selectedReason === "Ordered by mistake"}
-              onChange={handleReasonChange}
-              className="form-radio text-red-500 h-4 w-4"
-            />
-            <span className="ml-2 text-sm">Ordered by mistake</span>
-          </label>
-          <label className="flex items-center">
-            <input
-              type="radio"
-              name="reason"
-              value="Want to change product"
-              checked={selectedReason === "Want to change product"}
-              onChange={handleReasonChange}
-              className="form-radio text-red-500 h-4 w-4"
-            />
-            <span className="ml-2 text-sm">Want to change product</span>
-          </label>
-          <label className="flex items-center">
-            <input
-              type="radio"
-              name="reason"
-              value="Delayed Delivery Cancellation"
-              checked={selectedReason === "Delayed Delivery Cancellation"}
-              onChange={handleReasonChange}
-              className="form-radio text-red-500 h-4 w-4"
-            />
-            <span className="ml-2 text-sm">Delayed Delivery Cancellation</span>
-          </label>
-          <label className="flex items-center">
-            <input
-              type="radio"
-              name="reason"
-              value="Duplicate Order"
-              checked={selectedReason === "Duplicate Order"}
-              onChange={handleReasonChange}
-              className="form-radio text-red-500 h-4 w-4"
-            />
-            <span className="ml-2 text-sm">Duplicate Order</span>
-          </label>
+        
+
+<label className="flex items-center">
+  <input
+    type="radio"
+    name="reason"
+    value="Ordered by mistake"
+    checked={selectedReason === "Ordered by mistake"}
+    onChange={handleReasonChange}
+    className="myradio h-4 w-4" // Apply custom radio button class
+  />
+  <span className="ml-2 text-sm">Ordered by mistake</span>
+</label>
+
+<label className="flex items-center">
+  <input
+    type="radio"
+    name="reason"
+    value="Want to change product"
+    checked={selectedReason === "Want to change product"}
+    onChange={handleReasonChange}
+    className="myradio h-4 w-4" // Apply custom radio button class
+  />
+  <span className="ml-2 text-sm">Want to change product</span>
+</label>
+
+<label className="flex items-center">
+  <input
+    type="radio"
+    name="reason"
+    value="Delayed Delivery Cancellation"
+    checked={selectedReason === "Delayed Delivery Cancellation"}
+    onChange={handleReasonChange}
+    className="myradio h-4 w-4" // Apply custom radio button class
+  />
+  <span className="ml-2 text-sm">Delayed Delivery Cancellation</span>
+</label>
+
+<label className="flex items-center">
+  <input
+    type="radio"
+    name="reason"
+    value="Duplicate Order"
+    checked={selectedReason === "Duplicate Order"}
+    onChange={handleReasonChange}
+    className="myradio h-4 w-4" // Apply custom radio button class
+  />
+  <span className="ml-2 text-sm">Duplicate Order</span>
+</label>
+
         </div>
       </div>
 
